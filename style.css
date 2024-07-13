@@ -1,19 +1,27 @@
 .orange{
     color: orange;
+    padding-left:5%
 
 }
 section{
     display: flex;
+    margin-bottom:100px;
     
+}
+.flex-cont{
+    display: flex;
+    margin-bottom:100px;
     
 }
 .intro{
     width: 50%
     padding-left:5%;
+    margin:2%
 }
 .intro img{
     
     width: 50%;
+    padding-left:2%;
     
 }
 .link-btn{
@@ -25,3 +33,14 @@ section{
     padding: 10px 40px;
     border radius: 5px;
 }
+.dream{
+    img{
+        height:300px;  
+        width:400px;
+        padding-right:1%;
+
+    }
+    
+}
+
+
