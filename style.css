@@ -3,11 +3,11 @@
     padding-left:5%
 
 }
-section{
+/*section{
     display: flex;
     margin-bottom:100px;
     
-}
+}*/
 .flex-cont{
     display: flex;
     margin-bottom:100px;
@@ -28,7 +28,7 @@ section{
     
     text-decoration : none;
     background-image: linear-gradient(orange,red);
-    color: white;
+   color: white;
     font-weight: 700;
     padding: 10px 40px;
     border radius: 5px;
@@ -42,5 +42,25 @@ section{
     }
     
 }
+.exp{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px orange;
+}
 
+#exp2{   
+    border-image: linear-gradient(orange,blue,black);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
 
+#exp1{   
+    border-image: linear-gradient(white,red);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
